@@ -16,24 +16,41 @@
   <h2>Who uses ReelBot</h2>
   <p>ReelBot is used only by the creator of Once Upon A Fact, to publish the channel's own videos to the channel's own YouTube, Instagram and Facebook accounts. It is not available to the public, and it never signs in to or acts on anyone else's account.</p>
 
-  <h2>What ReelBot accesses</h2>
+  <h2>ReelBot uses YouTube API Services</h2>
+  <p>ReelBot uses YouTube API Services to upload videos to our own YouTube channel. By using ReelBot you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. How Google handles data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>What information ReelBot accesses</h2>
   <ul>
-    <li><strong>YouTube (through YouTube API Services):</strong> permission to upload videos to our own channel and to read our own channel's basic details, such as its name, to confirm the connection works.</li>
+    <li><strong>YouTube (Google sign-in with two permissions):</strong> "upload videos" (youtube.upload), used to upload our approved videos to our own channel, and "view your YouTube account" (youtube.readonly), used only to read our own channel's name to confirm the connection works.</li>
     <li><strong>Instagram and Facebook (through Meta's APIs):</strong> permission to publish reels to our own Instagram account and Facebook Page.</li>
   </ul>
-  <p>ReelBot does not read, collect or store information about viewers, subscribers or followers. It does not read comments, messages, watch history or analytics.</p>
+  <p>ReelBot does not access, collect or store information about viewers, subscribers or followers. It does not read comments, messages, watch history, analytics or any other user's data.</p>
 
-  <h2>How the access is stored</h2>
-  <p>The access keys for our own accounts are stored as encrypted secrets in a private GitHub repository and are used only when the creator runs the tool. They are never shared, sold or published.</p>
+  <h2>How the information is used, stored and shared</h2>
+  <ul>
+    <li>The only YouTube information ReelBot keeps is the sign-in key (a refresh token) for our own channel. It is stored as an encrypted secret in a private GitHub repository and used only when the creator runs the tool.</li>
+    <li>Our channel's name and the ID of each uploaded video are shown to the creator in the tool's private run log so the creator can check the result. Nothing else from YouTube is saved.</li>
+    <li>This information is never sold, shared with other people or companies, or published.</li>
+  </ul>
 
-  <h2>YouTube API Services</h2>
-  <p>ReelBot uses YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Access granted to ReelBot can be revoked at any time from your Google Account's <a href="https://myaccount.google.com/connections">third-party connections page</a>.</p>
+  <h2>Cookies and device information</h2>
+  <p>ReelBot does not place cookies or read or store any information on anyone's device or browser. This website does not use cookies, analytics or trackers either.</p>
+
+  <h2>Data retention and deletion</h2>
+  <ul>
+    <li>ReelBot does not keep any YouTube API data beyond the run that uses it, other than the sign-in key described above.</li>
+    <li>When access is revoked, the sign-in key stops working immediately and is deleted from the repository.</li>
+    <li>To ask for any information about you to be deleted, contact us (see below). We will reply and delete it within 7 days. In practice ReelBot holds no information about anyone other than our own channel.</li>
+  </ul>
+
+  <h2>How to revoke access</h2>
+  <p>Access granted to ReelBot can be revoked at any time from the Google security settings page: <a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a> (also available as <a href="https://myaccount.google.com/connections">Third-party apps &amp; services</a> in your Google Account).</p>
 
   <h2>This website</h2>
-  <p>This site is a plain information page hosted on GitHub Pages. It uses no cookies, analytics or trackers of its own. GitHub may log basic technical information such as IP addresses for security, as described in the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+  <p>This site is a plain information page hosted on GitHub Pages. GitHub may log basic technical information such as IP addresses for security, as described in the <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
 
   <h2>Contact</h2>
-  <p>Questions about this policy: send a direct message to <a href="https://www.instagram.com/onceuponafkt/">@onceuponafkt on Instagram</a>.</p>
+  <p>Questions about this policy or deletion requests: send a direct message to <a href="https://www.instagram.com/onceuponafkt/">@onceuponafkt on Instagram</a>.</p>
 
   <nav><a href="index.html">Home</a><a href="terms.html">Terms of service</a></nav>
   <footer>© 2026 Once Upon A Fact</footer>
