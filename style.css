@@ -42,3 +42,5 @@ nav a:hover { color: var(--cyan); }
 }
 .eye::after { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
 footer { margin-top: 56px; color: var(--muted); font-size: 0.85rem; }
+.yt { margin-top: 28px; padding: 14px 18px; border: 1px solid rgba(255, 79, 216, 0.45); border-radius: 10px; background: rgba(255, 255, 255, 0.04); font-size: 0.95rem; }
+footer a { color: var(--muted); }
